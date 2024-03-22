@@ -1,0 +1,1007 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		730F716D2BABF9E40078592D /* iTunesTopSongsTCAApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730F716C2BABF9E40078592D /* iTunesTopSongsTCAApp.swift */; };
+		730F71712BABF9E50078592D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 730F71702BABF9E50078592D /* Assets.xcassets */; };
+		730F71742BABF9E50078592D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 730F71732BABF9E50078592D /* Preview Assets.xcassets */; };
+		730F717E2BABF9E50078592D /* iTunesTopSongsTCATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730F717D2BABF9E50078592D /* iTunesTopSongsTCATests.swift */; };
+		730F71882BABF9E50078592D /* iTunesTopSongsTCAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730F71872BABF9E50078592D /* iTunesTopSongsTCAUITests.swift */; };
+		730F718A2BABF9E50078592D /* iTunesTopSongsTCAUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730F71892BABF9E50078592D /* iTunesTopSongsTCAUITestsLaunchTests.swift */; };
+		730F71A92BABFA640078592D /* TopSongs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 730F71A12BABFA640078592D /* TopSongs.framework */; };
+		730F71B02BABFA640078592D /* TopSongsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730F71AF2BABFA640078592D /* TopSongsTests.swift */; };
+		730F71B12BABFA640078592D /* TopSongs.h in Headers */ = {isa = PBXBuildFile; fileRef = 730F71A32BABFA640078592D /* TopSongs.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		730F71B42BABFA640078592D /* TopSongs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 730F71A12BABFA640078592D /* TopSongs.framework */; };
+		730F71B52BABFA640078592D /* TopSongs.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 730F71A12BABFA640078592D /* TopSongs.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		730F71BE2BABFA840078592D /* TopSongs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730F71BD2BABFA840078592D /* TopSongs.swift */; };
+		730F71C12BABFAA70078592D /* Networking in Frameworks */ = {isa = PBXBuildFile; productRef = 730F71C02BABFAA70078592D /* Networking */; };
+		730F71C32BABFAA70078592D /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 730F71C22BABFAA70078592D /* ComposableArchitecture */; };
+		730F71C62BABFB7A0078592D /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730F71C52BABFB7A0078592D /* Song.swift */; };
+		730F71C92BABFDB50078592D /* SampleSongs.json in Resources */ = {isa = PBXBuildFile; fileRef = 730F71C82BABFDB50078592D /* SampleSongs.json */; };
+		730F71CC2BAC037A0078592D /* SongClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730F71CB2BAC037A0078592D /* SongClient.swift */; };
+		730F71D02BAC0EC20078592D /* Endpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730F71CF2BAC0EC20078592D /* Endpoints.swift */; };
+		739834782BACFA9B00BAB101 /* SongFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739834772BACFA9B00BAB101 /* SongFeature.swift */; };
+		7398347D2BACFD2300BAB101 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 7398347C2BACFD2300BAB101 /* Kingfisher */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		730F717A2BABF9E50078592D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 730F71612BABF9E40078592D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 730F71682BABF9E40078592D;
+			remoteInfo = iTunesTopSongsTCA;
+		};
+		730F71842BABF9E50078592D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 730F71612BABF9E40078592D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 730F71682BABF9E40078592D;
+			remoteInfo = iTunesTopSongsTCA;
+		};
+		730F71AA2BABFA640078592D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 730F71612BABF9E40078592D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 730F71A02BABFA640078592D;
+			remoteInfo = TopSongs;
+		};
+		730F71AC2BABFA640078592D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 730F71612BABF9E40078592D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 730F71682BABF9E40078592D;
+			remoteInfo = iTunesTopSongsTCA;
+		};
+		730F71B22BABFA640078592D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 730F71612BABF9E40078592D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 730F71A02BABFA640078592D;
+			remoteInfo = TopSongs;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		730F71B92BABFA640078592D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				730F71B52BABFA640078592D /* TopSongs.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		730F71692BABF9E40078592D /* iTunesTopSongsTCA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTunesTopSongsTCA.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		730F716C2BABF9E40078592D /* iTunesTopSongsTCAApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iTunesTopSongsTCAApp.swift; sourceTree = "<group>"; };
+		730F71702BABF9E50078592D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		730F71732BABF9E50078592D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		730F71792BABF9E50078592D /* iTunesTopSongsTCATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iTunesTopSongsTCATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		730F717D2BABF9E50078592D /* iTunesTopSongsTCATests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iTunesTopSongsTCATests.swift; sourceTree = "<group>"; };
+		730F71832BABF9E50078592D /* iTunesTopSongsTCAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iTunesTopSongsTCAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		730F71872BABF9E50078592D /* iTunesTopSongsTCAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iTunesTopSongsTCAUITests.swift; sourceTree = "<group>"; };
+		730F71892BABF9E50078592D /* iTunesTopSongsTCAUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iTunesTopSongsTCAUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		730F71A12BABFA640078592D /* TopSongs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TopSongs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		730F71A32BABFA640078592D /* TopSongs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TopSongs.h; sourceTree = "<group>"; };
+		730F71A82BABFA640078592D /* TopSongsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TopSongsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		730F71AF2BABFA640078592D /* TopSongsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopSongsTests.swift; sourceTree = "<group>"; };
+		730F71BD2BABFA840078592D /* TopSongs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopSongs.swift; sourceTree = "<group>"; };
+		730F71C52BABFB7A0078592D /* Song.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		730F71C82BABFDB50078592D /* SampleSongs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SampleSongs.json; sourceTree = "<group>"; };
+		730F71CB2BAC037A0078592D /* SongClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongClient.swift; sourceTree = "<group>"; };
+		730F71CF2BAC0EC20078592D /* Endpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoints.swift; sourceTree = "<group>"; };
+		739834772BACFA9B00BAB101 /* SongFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongFeature.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		730F71662BABF9E40078592D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				730F71B42BABFA640078592D /* TopSongs.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		730F71762BABF9E50078592D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		730F71802BABF9E50078592D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		730F719E2BABFA640078592D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7398347D2BACFD2300BAB101 /* Kingfisher in Frameworks */,
+				730F71C32BABFAA70078592D /* ComposableArchitecture in Frameworks */,
+				730F71C12BABFAA70078592D /* Networking in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		730F71A52BABFA640078592D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				730F71A92BABFA640078592D /* TopSongs.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		730F71602BABF9E40078592D = {
+			isa = PBXGroup;
+			children = (
+				730F716B2BABF9E40078592D /* iTunesTopSongsTCA */,
+				730F717C2BABF9E50078592D /* iTunesTopSongsTCATests */,
+				730F71862BABF9E50078592D /* iTunesTopSongsTCAUITests */,
+				730F71A22BABFA640078592D /* TopSongs */,
+				730F71AE2BABFA640078592D /* TopSongsTests */,
+				730F716A2BABF9E40078592D /* Products */,
+				730F71BF2BABFAA70078592D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		730F716A2BABF9E40078592D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				730F71692BABF9E40078592D /* iTunesTopSongsTCA.app */,
+				730F71792BABF9E50078592D /* iTunesTopSongsTCATests.xctest */,
+				730F71832BABF9E50078592D /* iTunesTopSongsTCAUITests.xctest */,
+				730F71A12BABFA640078592D /* TopSongs.framework */,
+				730F71A82BABFA640078592D /* TopSongsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		730F716B2BABF9E40078592D /* iTunesTopSongsTCA */ = {
+			isa = PBXGroup;
+			children = (
+				730F716C2BABF9E40078592D /* iTunesTopSongsTCAApp.swift */,
+				730F71702BABF9E50078592D /* Assets.xcassets */,
+				730F71722BABF9E50078592D /* Preview Content */,
+			);
+			path = iTunesTopSongsTCA;
+			sourceTree = "<group>";
+		};
+		730F71722BABF9E50078592D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				730F71732BABF9E50078592D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		730F717C2BABF9E50078592D /* iTunesTopSongsTCATests */ = {
+			isa = PBXGroup;
+			children = (
+				730F717D2BABF9E50078592D /* iTunesTopSongsTCATests.swift */,
+			);
+			path = iTunesTopSongsTCATests;
+			sourceTree = "<group>";
+		};
+		730F71862BABF9E50078592D /* iTunesTopSongsTCAUITests */ = {
+			isa = PBXGroup;
+			children = (
+				730F71872BABF9E50078592D /* iTunesTopSongsTCAUITests.swift */,
+				730F71892BABF9E50078592D /* iTunesTopSongsTCAUITestsLaunchTests.swift */,
+			);
+			path = iTunesTopSongsTCAUITests;
+			sourceTree = "<group>";
+		};
+		730F71A22BABFA640078592D /* TopSongs */ = {
+			isa = PBXGroup;
+			children = (
+				730F71D12BAC0F590078592D /* Clients */,
+				730F71C72BABFD9D0078592D /* Resources */,
+				730F71C42BABFB6F0078592D /* Model */,
+				730F71A32BABFA640078592D /* TopSongs.h */,
+				730F71BD2BABFA840078592D /* TopSongs.swift */,
+				730F71CF2BAC0EC20078592D /* Endpoints.swift */,
+				739834772BACFA9B00BAB101 /* SongFeature.swift */,
+			);
+			path = TopSongs;
+			sourceTree = "<group>";
+		};
+		730F71AE2BABFA640078592D /* TopSongsTests */ = {
+			isa = PBXGroup;
+			children = (
+				730F71AF2BABFA640078592D /* TopSongsTests.swift */,
+			);
+			path = TopSongsTests;
+			sourceTree = "<group>";
+		};
+		730F71BF2BABFAA70078592D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		730F71C42BABFB6F0078592D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				730F71C52BABFB7A0078592D /* Song.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		730F71C72BABFD9D0078592D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				730F71C82BABFDB50078592D /* SampleSongs.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		730F71D12BAC0F590078592D /* Clients */ = {
+			isa = PBXGroup;
+			children = (
+				730F71CB2BAC037A0078592D /* SongClient.swift */,
+			);
+			path = Clients;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		730F719C2BABFA640078592D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				730F71B12BABFA640078592D /* TopSongs.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		730F71682BABF9E40078592D /* iTunesTopSongsTCA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 730F718D2BABF9E50078592D /* Build configuration list for PBXNativeTarget "iTunesTopSongsTCA" */;
+			buildPhases = (
+				730F71652BABF9E40078592D /* Sources */,
+				730F71662BABF9E40078592D /* Frameworks */,
+				730F71672BABF9E40078592D /* Resources */,
+				730F71B92BABFA640078592D /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				730F71B32BABFA640078592D /* PBXTargetDependency */,
+			);
+			name = iTunesTopSongsTCA;
+			packageProductDependencies = (
+			);
+			productName = iTunesTopSongsTCA;
+			productReference = 730F71692BABF9E40078592D /* iTunesTopSongsTCA.app */;
+			productType = "com.apple.product-type.application";
+		};
+		730F71782BABF9E50078592D /* iTunesTopSongsTCATests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 730F71902BABF9E50078592D /* Build configuration list for PBXNativeTarget "iTunesTopSongsTCATests" */;
+			buildPhases = (
+				730F71752BABF9E50078592D /* Sources */,
+				730F71762BABF9E50078592D /* Frameworks */,
+				730F71772BABF9E50078592D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				730F717B2BABF9E50078592D /* PBXTargetDependency */,
+			);
+			name = iTunesTopSongsTCATests;
+			productName = iTunesTopSongsTCATests;
+			productReference = 730F71792BABF9E50078592D /* iTunesTopSongsTCATests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		730F71822BABF9E50078592D /* iTunesTopSongsTCAUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 730F71932BABF9E50078592D /* Build configuration list for PBXNativeTarget "iTunesTopSongsTCAUITests" */;
+			buildPhases = (
+				730F717F2BABF9E50078592D /* Sources */,
+				730F71802BABF9E50078592D /* Frameworks */,
+				730F71812BABF9E50078592D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				730F71852BABF9E50078592D /* PBXTargetDependency */,
+			);
+			name = iTunesTopSongsTCAUITests;
+			productName = iTunesTopSongsTCAUITests;
+			productReference = 730F71832BABF9E50078592D /* iTunesTopSongsTCAUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		730F71A02BABFA640078592D /* TopSongs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 730F71B62BABFA640078592D /* Build configuration list for PBXNativeTarget "TopSongs" */;
+			buildPhases = (
+				730F719C2BABFA640078592D /* Headers */,
+				730F719D2BABFA640078592D /* Sources */,
+				730F719E2BABFA640078592D /* Frameworks */,
+				730F719F2BABFA640078592D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TopSongs;
+			packageProductDependencies = (
+				730F71C02BABFAA70078592D /* Networking */,
+				730F71C22BABFAA70078592D /* ComposableArchitecture */,
+				7398347C2BACFD2300BAB101 /* Kingfisher */,
+			);
+			productName = TopSongs;
+			productReference = 730F71A12BABFA640078592D /* TopSongs.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		730F71A72BABFA640078592D /* TopSongsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 730F71BA2BABFA640078592D /* Build configuration list for PBXNativeTarget "TopSongsTests" */;
+			buildPhases = (
+				730F71A42BABFA640078592D /* Sources */,
+				730F71A52BABFA640078592D /* Frameworks */,
+				730F71A62BABFA640078592D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				730F71AB2BABFA640078592D /* PBXTargetDependency */,
+				730F71AD2BABFA640078592D /* PBXTargetDependency */,
+			);
+			name = TopSongsTests;
+			productName = TopSongsTests;
+			productReference = 730F71A82BABFA640078592D /* TopSongsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		730F71612BABF9E40078592D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					730F71682BABF9E40078592D = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					730F71782BABF9E50078592D = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 730F71682BABF9E40078592D;
+					};
+					730F71822BABF9E50078592D = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 730F71682BABF9E40078592D;
+					};
+					730F71A02BABFA640078592D = {
+						CreatedOnToolsVersion = 15.1;
+						LastSwiftMigration = 1510;
+					};
+					730F71A72BABFA640078592D = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 730F71682BABF9E40078592D;
+					};
+				};
+			};
+			buildConfigurationList = 730F71642BABF9E40078592D /* Build configuration list for PBXProject "iTunesTopSongsTCA" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 730F71602BABF9E40078592D;
+			packageReferences = (
+				730F71962BABFA260078592D /* XCRemoteSwiftPackageReference "Networking" */,
+				730F71992BABFA4A0078592D /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+				7398347B2BACFD2300BAB101 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
+			productRefGroup = 730F716A2BABF9E40078592D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				730F71682BABF9E40078592D /* iTunesTopSongsTCA */,
+				730F71782BABF9E50078592D /* iTunesTopSongsTCATests */,
+				730F71822BABF9E50078592D /* iTunesTopSongsTCAUITests */,
+				730F71A02BABFA640078592D /* TopSongs */,
+				730F71A72BABFA640078592D /* TopSongsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		730F71672BABF9E40078592D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				730F71742BABF9E50078592D /* Preview Assets.xcassets in Resources */,
+				730F71712BABF9E50078592D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		730F71772BABF9E50078592D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		730F71812BABF9E50078592D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		730F719F2BABFA640078592D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				730F71C92BABFDB50078592D /* SampleSongs.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		730F71A62BABFA640078592D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		730F71652BABF9E40078592D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				730F716D2BABF9E40078592D /* iTunesTopSongsTCAApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		730F71752BABF9E50078592D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				730F717E2BABF9E50078592D /* iTunesTopSongsTCATests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		730F717F2BABF9E50078592D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				730F718A2BABF9E50078592D /* iTunesTopSongsTCAUITestsLaunchTests.swift in Sources */,
+				730F71882BABF9E50078592D /* iTunesTopSongsTCAUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		730F719D2BABFA640078592D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				730F71C62BABFB7A0078592D /* Song.swift in Sources */,
+				730F71CC2BAC037A0078592D /* SongClient.swift in Sources */,
+				730F71D02BAC0EC20078592D /* Endpoints.swift in Sources */,
+				730F71BE2BABFA840078592D /* TopSongs.swift in Sources */,
+				739834782BACFA9B00BAB101 /* SongFeature.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		730F71A42BABFA640078592D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				730F71B02BABFA640078592D /* TopSongsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		730F717B2BABF9E50078592D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 730F71682BABF9E40078592D /* iTunesTopSongsTCA */;
+			targetProxy = 730F717A2BABF9E50078592D /* PBXContainerItemProxy */;
+		};
+		730F71852BABF9E50078592D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 730F71682BABF9E40078592D /* iTunesTopSongsTCA */;
+			targetProxy = 730F71842BABF9E50078592D /* PBXContainerItemProxy */;
+		};
+		730F71AB2BABFA640078592D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 730F71A02BABFA640078592D /* TopSongs */;
+			targetProxy = 730F71AA2BABFA640078592D /* PBXContainerItemProxy */;
+		};
+		730F71AD2BABFA640078592D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 730F71682BABF9E40078592D /* iTunesTopSongsTCA */;
+			targetProxy = 730F71AC2BABFA640078592D /* PBXContainerItemProxy */;
+		};
+		730F71B32BABFA640078592D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 730F71A02BABFA640078592D /* TopSongs */;
+			targetProxy = 730F71B22BABFA640078592D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		730F718B2BABF9E50078592D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		730F718C2BABF9E50078592D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		730F718E2BABF9E50078592D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iTunesTopSongsTCA/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.temp.iTunesTopSongsTCA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		730F718F2BABF9E50078592D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iTunesTopSongsTCA/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.temp.iTunesTopSongsTCA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		730F71912BABF9E50078592D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.temp.iTunesTopSongsTCATests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iTunesTopSongsTCA.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iTunesTopSongsTCA";
+			};
+			name = Debug;
+		};
+		730F71922BABF9E50078592D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.temp.iTunesTopSongsTCATests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iTunesTopSongsTCA.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iTunesTopSongsTCA";
+			};
+			name = Release;
+		};
+		730F71942BABF9E50078592D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.temp.iTunesTopSongsTCAUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iTunesTopSongsTCA;
+			};
+			name = Debug;
+		};
+		730F71952BABF9E50078592D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.temp.iTunesTopSongsTCAUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iTunesTopSongsTCA;
+			};
+			name = Release;
+		};
+		730F71B72BABFA640078592D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = com.temp.TopSongs;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		730F71B82BABFA640078592D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = com.temp.TopSongs;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		730F71BB2BABFA640078592D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.temp.TopSongsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iTunesTopSongsTCA.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iTunesTopSongsTCA";
+			};
+			name = Debug;
+		};
+		730F71BC2BABFA640078592D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.temp.TopSongsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iTunesTopSongsTCA.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iTunesTopSongsTCA";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		730F71642BABF9E40078592D /* Build configuration list for PBXProject "iTunesTopSongsTCA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				730F718B2BABF9E50078592D /* Debug */,
+				730F718C2BABF9E50078592D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		730F718D2BABF9E50078592D /* Build configuration list for PBXNativeTarget "iTunesTopSongsTCA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				730F718E2BABF9E50078592D /* Debug */,
+				730F718F2BABF9E50078592D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		730F71902BABF9E50078592D /* Build configuration list for PBXNativeTarget "iTunesTopSongsTCATests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				730F71912BABF9E50078592D /* Debug */,
+				730F71922BABF9E50078592D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		730F71932BABF9E50078592D /* Build configuration list for PBXNativeTarget "iTunesTopSongsTCAUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				730F71942BABF9E50078592D /* Debug */,
+				730F71952BABF9E50078592D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		730F71B62BABFA640078592D /* Build configuration list for PBXNativeTarget "TopSongs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				730F71B72BABFA640078592D /* Debug */,
+				730F71B82BABFA640078592D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		730F71BA2BABFA640078592D /* Build configuration list for PBXNativeTarget "TopSongsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				730F71BB2BABFA640078592D /* Debug */,
+				730F71BC2BABFA640078592D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		730F71962BABFA260078592D /* XCRemoteSwiftPackageReference "Networking" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/vinodh06/Networking.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.1;
+			};
+		};
+		730F71992BABFA4A0078592D /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.9.2;
+			};
+		};
+		7398347B2BACFD2300BAB101 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.11.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		730F71C02BABFAA70078592D /* Networking */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 730F71962BABFA260078592D /* XCRemoteSwiftPackageReference "Networking" */;
+			productName = Networking;
+		};
+		730F71C22BABFAA70078592D /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 730F71992BABFA4A0078592D /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+		7398347C2BACFD2300BAB101 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7398347B2BACFD2300BAB101 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 730F71612BABF9E40078592D /* Project object */;
+}

@@ -1,0 +1,251 @@
+{
+  "feed": {
+    "title": "Top Songs",
+    "id": "https://rss.applemarketingtools.com/api/v2/in/music/most-played/10/songs.json",
+    "author": {
+      "name": "Apple",
+      "url": "https://www.apple.com/"
+    },
+    "links": [
+      {
+        "self": "https://rss.applemarketingtools.com/api/v2/in/music/most-played/10/songs.json"
+      }
+    ],
+    "copyright": "Copyright © 2024 Apple Inc. All rights reserved.",
+    "country": "in",
+    "icon": "https://www.apple.com/favicon.ico",
+    "updated": "Thu, 21 Mar 2024 05:24:32 +0000",
+    "results": [
+      {
+        "artistName": "Mitraz",
+        "id": "1726548488",
+        "name": "Akhiyaan Gulaab (From \"Teri Baaton Mein Aisa Uljha Jiya\")",
+        "releaseDate": "2024-01-19",
+        "kind": "songs",
+        "artistId": "1498435512",
+        "artistUrl": "https://music.apple.com/in/artist/mitraz/1498435512",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/ff/3c/2f/ff3c2ff1-a7fd-42fa-1a9c-83e524d37545/8903431980878_cover.jpg/100x100bb.jpg",
+        "genres": [
+          {
+            "genreId": "1263",
+            "name": "Bollywood",
+            "url": "https://itunes.apple.com/in/genre/id1263"
+          },
+          {
+            "genreId": "34",
+            "name": "Music",
+            "url": "https://itunes.apple.com/in/genre/id34"
+          }
+        ],
+        "url": "https://music.apple.com/in/album/akhiyaan-gulaab-from-teri-baaton-mein-aisa-uljha-jiya/1726548487?i=1726548488"
+      },
+      {
+        "artistName": "Vishal Mishra & Raj Shekhar",
+        "id": "1718278234",
+        "name": "Pehle Bhi Main",
+        "releaseDate": "2023-11-24",
+        "kind": "songs",
+        "artistId": "1159736220",
+        "artistUrl": "https://music.apple.com/in/artist/vishal-mishra/1159736220",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/db/ad/5e/dbad5e8b-0bee-d962-92d4-021c90e375ac/8902894362092_cover.jpg/100x100bb.jpg",
+        "genres": [
+          {
+            "genreId": "1263",
+            "name": "Bollywood",
+            "url": "https://itunes.apple.com/in/genre/id1263"
+          },
+          {
+            "genreId": "34",
+            "name": "Music",
+            "url": "https://itunes.apple.com/in/genre/id34"
+          }
+        ],
+        "url": "https://music.apple.com/in/album/pehle-bhi-main/1718278225?i=1718278234"
+      },
+      {
+        "artistName": "Anuv Jain",
+        "id": "1717140552",
+        "name": "Husn",
+        "releaseDate": "2023-12-01",
+        "kind": "songs",
+        "artistId": "1388609753",
+        "artistUrl": "https://music.apple.com/in/artist/anuv-jain/1388609753",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/b6/3d/12/b63d1218-7bc1-f4f2-5fdd-5d1909abda1c/23UM1IM56437.rgb.jpg/100x100bb.jpg",
+        "genres": [
+          {
+            "genreId": "14",
+            "name": "Pop",
+            "url": "https://itunes.apple.com/in/genre/id14"
+          },
+          {
+            "genreId": "34",
+            "name": "Music",
+            "url": "https://itunes.apple.com/in/genre/id34"
+          }
+        ],
+        "url": "https://music.apple.com/in/album/husn/1717140538?i=1717140552"
+      },
+      {
+        "artistName": "Diljit Dosanjh",
+        "id": "1714131823",
+        "name": "Lalkara (feat. Sultaan)",
+        "releaseDate": "2023-09-29",
+        "kind": "songs",
+        "artistId": "423087540",
+        "artistUrl": "https://music.apple.com/in/artist/diljit-dosanjh/423087540",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/94/80/be/9480bec1-6ca2-5bae-a7da-d0e7c45633ce/859779847831_cover.jpg/100x100bb.jpg",
+        "genres": [
+          {
+            "genreId": "34",
+            "name": "Music",
+            "url": "https://itunes.apple.com/in/genre/id34"
+          },
+          {
+            "genreId": "1266",
+            "name": "Regional Indian",
+            "url": "https://itunes.apple.com/in/genre/id1266"
+          }
+        ],
+        "url": "https://music.apple.com/in/album/lalkara-feat-sultaan/1714131533?i=1714131823"
+      },
+      {
+        "artistName": "Diljit Dosanjh",
+        "id": "1581006912",
+        "name": "Lover",
+        "releaseDate": "2021-08-22",
+        "kind": "songs",
+        "artistId": "423087540",
+        "artistUrl": "https://music.apple.com/in/artist/diljit-dosanjh/423087540",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/8a/89/e4/8a89e445-d2c6-f8ac-a828-27818b0c1afe/859749638209_cover.jpg/100x100bb.jpg",
+        "genres": [
+          {
+            "genreId": "1185",
+            "name": "Indian Pop",
+            "url": "https://itunes.apple.com/in/genre/id1185"
+          },
+          {
+            "genreId": "34",
+            "name": "Music",
+            "url": "https://itunes.apple.com/in/genre/id34"
+          },
+          {
+            "genreId": "1266",
+            "name": "Regional Indian",
+            "url": "https://itunes.apple.com/in/genre/id1266"
+          },
+          {
+            "genreId": "14",
+            "name": "Pop",
+            "url": "https://itunes.apple.com/in/genre/id14"
+          }
+        ],
+        "url": "https://music.apple.com/in/album/lover/1581006360?i=1581006912"
+      },
+      {
+        "artistName": "Shubh",
+        "id": "1700735404",
+        "name": "One Love",
+        "releaseDate": "2023-08-18",
+        "kind": "songs",
+        "artistId": "1585737475",
+        "artistUrl": "https://music.apple.com/in/artist/shubh/1585737475",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/48/4f/3c/484f3c19-fdab-1fa8-fdb4-c7de79852d12/197189603969.jpg/100x100bb.jpg",
+        "genres": [
+          {
+            "genreId": "14",
+            "name": "Pop",
+            "url": "https://itunes.apple.com/in/genre/id14"
+          },
+          {
+            "genreId": "34",
+            "name": "Music",
+            "url": "https://itunes.apple.com/in/genre/id34"
+          }
+        ],
+        "url": "https://music.apple.com/in/album/one-love/1700735389?i=1700735404"
+      },
+      {
+        "artistName": "Danny, Avvy Sra & Sagar",
+        "id": "1725812915",
+        "name": "Ve Haaniyaan",
+        "releaseDate": "2024-01-19",
+        "kind": "songs",
+        "artistId": "1049895081",
+        "artistUrl": "https://music.apple.com/in/artist/danny/1049895081",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/39/79/12/39791225-0ff6-67a5-62bf-0bce443ff9dc/196922795367_Cover.jpg/100x100bb.jpg",
+        "genres": [
+          {
+            "genreId": "34",
+            "name": "Music",
+            "url": "https://itunes.apple.com/in/genre/id34"
+          }
+        ],
+        "url": "https://music.apple.com/in/album/ve-haaniyaan/1725812905?i=1725812915"
+      },
+      {
+        "artistName": "Arijit Singh, Shreyas Puranik & Siddharth-Garima",
+        "id": "1718278231",
+        "name": "Satranga",
+        "releaseDate": "2023-10-27",
+        "kind": "songs",
+        "artistId": "484568188",
+        "artistUrl": "https://music.apple.com/in/artist/arijit-singh/484568188",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/db/ad/5e/dbad5e8b-0bee-d962-92d4-021c90e375ac/8902894362092_cover.jpg/100x100bb.jpg",
+        "genres": [
+          {
+            "genreId": "1263",
+            "name": "Bollywood",
+            "url": "https://itunes.apple.com/in/genre/id1263"
+          },
+          {
+            "genreId": "34",
+            "name": "Music",
+            "url": "https://itunes.apple.com/in/genre/id34"
+          }
+        ],
+        "url": "https://music.apple.com/in/album/satranga/1718278225?i=1718278231"
+      },
+      {
+        "artistName": "Diljit Dosanjh, Badshah & Raj Ranjodh",
+        "id": "1734233958",
+        "name": "Naina (From \"Crew\")",
+        "releaseDate": "2024-03-05",
+        "kind": "songs",
+        "artistId": "423087540",
+        "artistUrl": "https://music.apple.com/in/artist/diljit-dosanjh/423087540",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/bc/5e/29/bc5e2962-1e89-ac6c-566f-fd087c788acb/8901854099214.jpg/100x100bb.jpg",
+        "genres": [
+          {
+            "genreId": "34",
+            "name": "Music",
+            "url": "https://itunes.apple.com/in/genre/id34"
+          }
+        ],
+        "url": "https://music.apple.com/in/album/naina-from-crew/1734233686?i=1734233958"
+      },
+      {
+        "artistName": "Arijit Singh, Sachin-Jigar & Amitabh Bhattacharya",
+        "id": "1653219849",
+        "name": "Apna Bana Le (From \"Bhediya\")",
+        "releaseDate": "2022-11-05",
+        "kind": "songs",
+        "artistId": "484568188",
+        "artistUrl": "https://music.apple.com/in/artist/arijit-singh/484568188",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/2e/0b/c0/2e0bc070-112f-a827-6ad8-6bc64f7caaff/840214460180.png/100x100bb.jpg",
+        "genres": [
+          {
+            "genreId": "1263",
+            "name": "Bollywood",
+            "url": "https://itunes.apple.com/in/genre/id1263"
+          },
+          {
+            "genreId": "34",
+            "name": "Music",
+            "url": "https://itunes.apple.com/in/genre/id34"
+          }
+        ],
+        "url": "https://music.apple.com/in/album/apna-bana-le-from-bhediya/1653219847?i=1653219849"
+      }
+    ]
+  }
+}
